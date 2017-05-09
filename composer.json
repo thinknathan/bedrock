@@ -35,7 +35,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.0.0",
+        "version": "5.5.13",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -63,7 +63,6 @@
     "wpackagist-plugin/advanced-excerpt": "*",
 
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
-    "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/thumbnail-upscale": "*",
 
     "wpackagist-plugin/adminimize": "*",
@@ -71,7 +70,6 @@
     "wpackagist-plugin/codepress-admin-columns": "*",
     "wpackagist-plugin/post-types-order": "*",
 
-    "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/wordpress-seo": "*",
 
     "wpackagist-plugin/relevanssi": "*",
