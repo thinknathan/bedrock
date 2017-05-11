@@ -80,6 +80,7 @@
     "wpackagist-plugin/wordfence": "*",
     "wpackagist-plugin/redirection": "*",
 
+    "wpackagist-plugin/sucuri-scanner": "*",
     "wpackagist-plugin/relevanssi": "*",
     "wpackagist-plugin/instant-images": "*",
     "wpackagist-plugin/radio-buttons-for-taxonomies": "*",
