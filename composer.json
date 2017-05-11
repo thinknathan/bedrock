@@ -72,6 +72,7 @@
 
     "wpackagist-plugin/wordpress-seo": "*",
 
+    "wpackagist-plugin/sucuri-scanner": "*",
     "wpackagist-plugin/relevanssi": "*",
     "wpackagist-plugin/wp-migrate-db": "*",
     "wpackagist-plugin/duplicate-post": "*",
