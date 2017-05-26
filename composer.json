@@ -56,6 +56,7 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
 
+    "thinknathan/wp-disallow-admin-bar": "*",
     "roots/soil": ">=3.4",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "wpackagist-plugin/super-cpt": "*",
