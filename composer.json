@@ -56,7 +56,10 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
 
-    "thinknathan/wp-disallow-admin-bar": "*",
+    "thinknathan/wp-disallow-admin-bar": "dev-master",
+    "thinknathan/wp-install-premium-keys": "dev-master",
+    "thinknathan/wp-development-tweaks": "dev-master",
+    
     "roots/soil": ">=3.4",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "wpackagist-plugin/super-cpt": "*",
@@ -87,11 +90,11 @@
   },
   "extra": {
     "installer-paths": {
-      "public_html/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "public_html/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "public_html/app/themes/{$name}/": ["type:wordpress-theme"]
+      "../public_html/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "../public_html/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "../public_html/app/themes/{$name}/": ["type:wordpress-theme"]
     },
-    "wordpress-install-dir": "public_html/wp"
+    "wordpress-install-dir": "../public_html/wp"
   },
   "scripts": {
     "test": [
