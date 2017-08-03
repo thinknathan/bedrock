@@ -44,20 +44,12 @@
       "url": "https://github.com/thinknathan/wp-development-tweaks"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.5.13",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
-        },
-        "require": {
-          "philippbaschke/acf-pro-installer": "^1.0",
-          "composer/installers": "^1.0"
-        }
-      }
+      "type": "vcs",
+      "url": "https://github.com/thinknathan/wp-disable-comments"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/thinknathan/wp-limit-revisions"
     }
   ],
   "require": {
@@ -71,9 +63,10 @@
     "thinknathan/wp-disallow-admin-bar": "dev-master",
     "thinknathan/wp-install-premium-keys": "dev-master",
     "thinknathan/wp-development-tweaks": "dev-master",
+    "thinknathan/wp-disable-comments": "dev-master",
+    "thinknathan/wp-limit-revisions": "dev-master",
 
     "roots/soil": ">=3.4",
-    "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "wpackagist-plugin/super-cpt": "*",
     "wpackagist-plugin/wp-pagenavi": "*",
     "wpackagist-plugin/advanced-excerpt": "*",
