@@ -32,24 +32,24 @@
       "url": "https://wpackagist.org"
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/thinknathan/wp-disallow-admin-bar"
+      "type": "git",
+      "url": "https://github.com/thinknathan/wp-install-premium-keys",
+      "no-api": true
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/thinknathan/wp-install-premium-keys"
+      "type": "git",
+      "url": "https://github.com/thinknathan/wp-development-tweaks",
+      "no-api": true
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/thinknathan/wp-development-tweaks"
+      "type": "git",
+      "url": "https://github.com/thinknathan/wp-disable-comments",
+      "no-api": true
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/thinknathan/wp-disable-comments"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/thinknathan/wp-limit-revisions"
+      "type": "git",
+      "url": "https://github.com/thinknathan/wp-limit-revisions",
+      "no-api": true
     }
   ],
   "require": {
@@ -59,36 +59,33 @@
     "johnpbloch/wordpress": "4.8.1",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-
-    "thinknathan/wp-disallow-admin-bar": "dev-master",
-    "thinknathan/wp-install-premium-keys": "dev-master",
-    "thinknathan/wp-development-tweaks": "dev-master",
-    "thinknathan/wp-disable-comments": "dev-master",
-    "thinknathan/wp-limit-revisions": "dev-master",
-
     "roots/soil": ">=3.4",
-    "wpackagist-plugin/super-cpt": "*",
-    "wpackagist-plugin/wp-pagenavi": "*",
-    "wpackagist-plugin/advanced-excerpt": "*",
+    
+    "thinknathan/wp-install-premium-keys": "*",
+    "thinknathan/wp-development-tweaks": "*",
+    "thinknathan/wp-disable-comments": "*",
+    "thinknathan/wp-limit-revisions": "*",
 
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
     "wpackagist-plugin/thumbnail-upscale": "*",
+    
+    "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/better-search-replace": "*",
 
+    "wpackagist-plugin/amp": "*",
+    "wpackagist-plugin/glue-for-yoast-seo-amp": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    
+    "wpackagist-plugin/relevanssi": "*",
     "wpackagist-plugin/adminimize": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
-    "wpackagist-plugin/codepress-admin-columns": "*",
-    "wpackagist-plugin/post-types-order": "*",
-
-    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/simple-page-ordering": "*",
 
     "wpackagist-plugin/sucuri-scanner": "*",
-    "wpackagist-plugin/relevanssi": "*",
-    "wpackagist-plugin/wp-migrate-db": "*",
-    "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/wordfence": "*",
+    
     "wpackagist-plugin/redirection": "*",
-    "wpackagist-plugin/really-simple-ssl": "*",
-    "wpackagist-plugin/svg-support": "*",
-    "wpackagist-plugin/disable-comments": "*"
+    "wpackagist-plugin/really-simple-ssl": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
