@@ -32,24 +32,8 @@
       "url": "https://wpackagist.org"
     },
     {
-      "type": "git",
-      "url": "https://github.com/thinknathan/wp-install-premium-keys",
-      "no-api": true
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/thinknathan/wp-development-tweaks",
-      "no-api": true
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/thinknathan/wp-disable-comments",
-      "no-api": true
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/thinknathan/wp-limit-revisions",
-      "no-api": true
+      "type": "composer",
+      "url": "https://package.thinknathan.ca/"
     }
   ],
   "require": {
@@ -60,22 +44,24 @@
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/soil": ">=3.4",
+
+    "wp-media/wp-rocket": "*",
     
     "thinknathan/wp-install-premium-keys": "*",
     "thinknathan/wp-development-tweaks": "*",
+    "thinknathan/wp-production-tweaks": "*",
     "thinknathan/wp-disable-comments": "*",
-    "thinknathan/wp-limit-revisions": "*",
 
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
     "wpackagist-plugin/thumbnail-upscale": "*",
-    
+
     "wpackagist-plugin/duplicate-post": "*",
     "wpackagist-plugin/better-search-replace": "*",
 
     "wpackagist-plugin/amp": "*",
     "wpackagist-plugin/glue-for-yoast-seo-amp": "*",
     "wpackagist-plugin/wordpress-seo": "*",
-    
+
     "wpackagist-plugin/relevanssi": "*",
     "wpackagist-plugin/adminimize": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
@@ -83,7 +69,7 @@
 
     "wpackagist-plugin/sucuri-scanner": "*",
     "wpackagist-plugin/wordfence": "*",
-    
+
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/really-simple-ssl": "*"
   },
