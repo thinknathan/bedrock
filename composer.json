@@ -47,10 +47,7 @@
 
     "wp-media/wp-rocket": "*",
     
-    "thinknathan/wp-install-premium-keys": "*",
-    "thinknathan/wp-development-tweaks": "*",
-    "thinknathan/wp-production-tweaks": "*",
-    "thinknathan/wp-disable-comments": "*",
+    "thinknathan/wp-abettor": "*",
 
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
     "wpackagist-plugin/thumbnail-upscale": "*",
