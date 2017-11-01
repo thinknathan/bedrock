@@ -48,6 +48,7 @@
     "wp-media/wp-rocket": "*",
     
     "thinknathan/wp-abettor": "*",
+    "thinknathan/wp-install-premium-keys": "*",
 
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
     "wpackagist-plugin/thumbnail-upscale": "*",
@@ -61,7 +62,6 @@
 
     "wpackagist-plugin/relevanssi": "*",
     "wpackagist-plugin/adminimize": "*",
-    "wpackagist-plugin/tinymce-advanced": "*",
     "wpackagist-plugin/simple-page-ordering": "*",
 
     "wpackagist-plugin/sucuri-scanner": "*",
