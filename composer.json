@@ -46,6 +46,8 @@
     "roots/soil": ">=3.4",
 
     "wp-media/wp-rocket": "*",
+    "acf/advanced-custom-fields-pro": "*",
+    "gf/gravityforms": "*",
     
     "thinknathan/wp-abettor": "*",
     "thinknathan/wp-install-premium-keys": "*",
