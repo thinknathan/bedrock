@@ -68,6 +68,8 @@
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
 
     "wpackagist-plugin/relevanssi": "*",
+    
+    "wpackagist-plugin/easy-wp-smtp": "*",
 
     "wpackagist-plugin/tao-schedule-update": "*",
     "wpackagist-plugin/post-expirator": "*",
