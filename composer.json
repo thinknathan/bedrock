@@ -45,19 +45,14 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/soil": ">=3.4",
 
-    "wp-media/wp-rocket": "*",
     "gf/gravityforms": "dev-master",
-
     "acf/advanced-custom-fields-pro": "dev-master",
     "wpackagist-plugin/acf-gravityforms-add-on": "*",
 
     "thinknathan/wp-abettor": "*",
-    "thinknathan/wp-install-premium-keys": "*",
 
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
-    "wpackagist-plugin/thumbnail-upscale": "*",
     "wpackagist-plugin/safe-svg": "*",
-
     "wpackagist-plugin/duplicate-post": "*",
     "wpackagist-plugin/better-search-replace": "*",
 
