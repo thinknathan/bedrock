@@ -1,8 +1,13 @@
 <?php
-/** Production */
-ini_set('display_errors', 0);
-define('WP_DEBUG_DISPLAY', false);
-define('SCRIPT_DEBUG', false);
-/** Disable file modifications via plugin/theme editor */
-define('DISALLOW_FILE_EDIT', true);
-define('WP_POST_REVISIONS', 3);
+/**
+ * Configuration overrides for WP_ENV === 'production'
+ */
+
+use Roots\WPConfig\Config;
+
+Config::define('WP_DEBUG_DISPLAY', false);
+Config::define('SCRIPT_DEBUG', false);
+Config::define('DISALLOW_FILE_EDIT', true);
+Config::define('WP_POST_REVISIONS', 3);
+
+ini_set('display_errors', '0');

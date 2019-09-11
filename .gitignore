@@ -10,14 +10,19 @@ web/app/uploads/*
 web/wp
 web/.htaccess
 
+# Logs
+*.log
+
 # Dotenv
 .env
 .env.*
 !.env.example
 
 # Composer
-vendor/*
-!vendor/.gitkeep
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
 
 # MacOS
 *.DS_Store
@@ -26,7 +31,6 @@ vendor/*
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
