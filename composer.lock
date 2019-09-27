@@ -851,15 +851,15 @@
         },
         {
             "name": "wpackagist-plugin/relevanssi",
-            "version": "4.3.2",
+            "version": "4.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/relevanssi/",
-                "reference": "tags/4.3.2"
+                "reference": "tags/4.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.3.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.3.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -941,15 +941,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.0",
+            "version": "12.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.0"
+                "reference": "tags/12.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
