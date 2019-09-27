@@ -833,15 +833,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "4.3.3",
+            "version": "4.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/4.3.3"
+                "reference": "tags/4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.4.3.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.4.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -851,15 +851,15 @@
         },
         {
             "name": "wpackagist-plugin/relevanssi",
-            "version": "4.3.2",
+            "version": "4.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/relevanssi/",
-                "reference": "tags/4.3.2"
+                "reference": "tags/4.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.3.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.3.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
