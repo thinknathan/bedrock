@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "26b0f316c3f6556f2b399942c7cdbb5d",
+    "content-hash": "2111bc6f55047aa108d5fb47c0ed0193",
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
@@ -517,6 +517,7 @@
                 "portable"
             ],
             "time": "2019-08-06T08:03:45+00:00"
+<<<<<<< HEAD
         },
         {
             "name": "thinknathan/wp-abettor",
@@ -541,6 +542,8 @@
                 "issues": "https://github.com/thinknathan/wp-abettor/issues"
             },
             "time": "2018-04-10T06:16:54+00:00"
+=======
+>>>>>>> roots/master
         },
         {
             "name": "vlucas/phpdotenv",
@@ -598,6 +601,7 @@
                 "environment"
             ],
             "time": "2019-09-10T21:37:39+00:00"
+<<<<<<< HEAD
         },
         {
             "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
@@ -998,6 +1002,8 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+=======
+>>>>>>> roots/master
         }
     ],
     "packages-dev": [
