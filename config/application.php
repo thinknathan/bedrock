@@ -9,22 +9,26 @@
  */
 
 use Roots\WPConfig\Config;
-
-/** @var string Directory containing all of the site's files */
-$root_dir = dirname(__DIR__);
-
-/** @var string Document Root */
-$webroot_dir = $root_dir . '/../public_html';
+use function Env\env;
 
 /**
- * Expose global env() function from oscarotero/env
+ * Directory containing all of the site's files
+ *
+ * @var string
  */
-Env::init();
+$root_dir = dirname(__DIR__);
+
+/**
+ * Document Root
+ *
+ * @var string
+ */
+$webroot_dir = $root_dir . '/../public_html';
 
 /**
  * Use Dotenv to set required environment variables and load .env file in root
  */
-$dotenv = Dotenv\Dotenv::create($root_dir);
+$dotenv = Dotenv\Dotenv::createUnsafeImmutable($root_dir);
 if (file_exists($root_dir . '/.env')) {
     $dotenv->load();
     $dotenv->required(['WP_HOME', 'WP_SITEURL']);
@@ -107,11 +111,14 @@ Config::define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 Config::define('DISALLOW_FILE_EDIT', true);
 // Disable plugin and theme updates and installation from the admin
 //Config::define('DISALLOW_FILE_MODS', true);
+// Limit the number of post revisions that Wordpress stores (true (default WP): store every revision)
+Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: true);
 
 /**
  * Debugging Settings
  */
 Config::define('WP_DEBUG_DISPLAY', false);
+Config::define('WP_DEBUG_LOG', env('WP_DEBUG_LOG') ?? false);
 Config::define('SCRIPT_DEBUG', false);
 ini_set('display_errors', '0');
 
