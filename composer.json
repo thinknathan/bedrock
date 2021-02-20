@@ -53,6 +53,7 @@
     "wpackagist-plugin/acf-gravityforms-add-on": "*",
 
     "thinknathan/wp-abettor": "*",
+    "thinknathan/wp-install-premium-keys": "*",
 
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
     "wpackagist-plugin/safe-svg": "*",
