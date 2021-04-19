@@ -30,8 +30,24 @@
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
     },
     {
-      "type": "composer",
-      "url": "https://package.thinknathan.ca/"
+      "type": "vcs",
+      "url": "https://github.com/thinknathan/gravityforms",
+      "no-api": true
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/thinknathan/wp-rocket",
+      "no-api": true
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/thinknathan/wp-abettor",
+      "no-api": true
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/thinknathan/wp-install-premium-keys",
+      "no-api": true
     },
     {
       "type": "composer",
@@ -44,31 +60,25 @@
     "vlucas/phpdotenv": "^5.3",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
-    "roots/wordpress": "5.6.1",
+    "roots/wordpress": "5.7.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
 
-    "gf/gravityforms": "dev-master",
-    "acf/advanced-custom-fields-pro": "dev-master",
+    "wp-premium/gravityforms": "dev-master",
     "wpackagist-plugin/acf-gravityforms-add-on": "*",
-
-    "thinknathan/wp-abettor": "*",
-    "thinknathan/wp-install-premium-keys": "*",
+    "wp-media/wp-rocket": "dev-master",
+    "thinknathan/wp-abettor": "dev-master",
+    "thinknathan/wp-install-premium-keys": "dev-master",
 
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
     "wpackagist-plugin/safe-svg": "*",
     "wpackagist-plugin/duplicate-post": "*",
     "wpackagist-plugin/better-search-replace": "*",
 
-    "wpackagist-plugin/amp": "*",
-    "wpackagist-plugin/glue-for-yoast-seo-amp": "*",
-
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
 
     "wpackagist-plugin/relevanssi": "*",
-
-    "wpackagist-plugin/easy-wp-smtp": "*",
 
     "wpackagist-plugin/instant-images": "*",
 
