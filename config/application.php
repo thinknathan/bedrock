@@ -27,8 +27,13 @@ $webroot_dir = $root_dir . '/../public_html';
 
 /**
  * Use Dotenv to set required environment variables and load .env file in root
+ * .env.local will override .env if it exists
  */
-$dotenv = Dotenv\Dotenv::createUnsafeImmutable($root_dir);
+$env_files = file_exists($root_dir . '/.env.local')
+    ? ['.env', '.env.local']
+    : ['.env'];
+
+$dotenv = Dotenv\Dotenv::createUnsafeImmutable($root_dir, $env_files, false);
 if (file_exists($root_dir . '/.env')) {
     $dotenv->load();
     $dotenv->required(['WP_HOME', 'WP_SITEURL']);
@@ -52,8 +57,8 @@ if (env('WP_ENV') == 'production') {
 } else {
     Config::define('WP_HOME', env('WP_HOME'));
     Config::define('WP_SITEURL', env('WP_SITEURL'));
-} 
-  
+}
+
 /**
  * Custom Content Directory
  */
@@ -105,12 +110,9 @@ Config::define('NONCE_SALT', env('NONCE_SALT'));
 /**
  * Custom Settings
  */
-//Config::define('AUTOMATIC_UPDATER_DISABLED', false);
 Config::define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 // Disable the plugin and theme file editor in the admin
 Config::define('DISALLOW_FILE_EDIT', true);
-// Disable plugin and theme updates and installation from the admin
-//Config::define('DISALLOW_FILE_MODS', true);
 // Limit the number of post revisions that Wordpress stores (true (default WP): store every revision)
 Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: true);
 
