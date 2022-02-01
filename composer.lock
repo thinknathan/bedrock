@@ -1713,15 +1713,15 @@
         },
         {
             "name": "wpackagist-plugin/instant-images",
-            "version": "4.5.1",
+            "version": "4.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/instant-images/",
-                "reference": "tags/4.5.1"
+                "reference": "tags/4.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instant-images.4.5.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/instant-images.4.6.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
