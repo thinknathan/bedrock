@@ -4,14 +4,10 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-    time: "13:00"
   open-pull-requests-limit: 10
-  assignees:
-  - thinknathan
   allow:
   - dependency-type: direct
   - dependency-type: indirect
   ignore:
-  - dependency-name: composer/installers
-    versions:
-    - 1.11.0
+  - dependency-name: "*"
+    update-types: ["version-update:semver-major"]
