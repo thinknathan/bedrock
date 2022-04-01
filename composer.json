@@ -114,7 +114,10 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "test": [
-      "phpcs"
+      "vendor/bin/phpcs"
+    ],
+    "post-root-package-install": [
+      "Anolilab\\Wordpress\\SaltGenerator\\Generator::addSalts"
     ]
   }
 }
