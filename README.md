@@ -1,50 +1,6 @@
-<p align="center">
-  <a href="https://roots.io/bedrock/">
-    <img alt="Bedrock" src="https://cdn.roots.io/app/uploads/logo-bedrock.svg" height="100">
-  </a>
-</p>
+# [Bedrock](https://roots.io/bedrock/)
 
-<p align="center">
-  <a href="LICENSE.md">
-    <img alt="MIT License" src="https://img.shields.io/github/license/roots/bedrock?color=%23525ddc&style=flat-square" />
-  </a>
-
-  <a href="https://packagist.org/packages/roots/bedrock">
-    <img alt="Packagist" src="https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square" />
-  </a>
-
-  <a href="https://github.com/roots/bedrock/actions/workflows/ci.yml">
-    <img alt="Build Status" src="https://img.shields.io/github/workflow/status/roots/bedrock/CI?style=flat-square" />
-  </a>
-
-  <a href="https://twitter.com/rootswp">
-    <img alt="Follow Roots" src="https://img.shields.io/twitter/follow/rootswp.svg?style=flat-square&color=1da1f2" />
-  </a>
-</p>
-
-<p align="center">
-  <strong>A modern WordPress stack</strong>
-</p>
-
-<p align="center">
-  <a href="https://roots.io/"><strong><code>Website</code></strong></a> &nbsp;&nbsp; <a href="https://docs.roots.io/bedrock/master/installation/"><strong><code>Documentation</code></strong></a> &nbsp;&nbsp; <a href="https://github.com/roots/bedrock/releases"><strong><code>Releases</code></strong></a> &nbsp;&nbsp; <a href="https://discourse.roots.io/"><strong><code>Support</code></strong></a>
-</p>
-
-## Supporting
-
-**Bedrock** is an open source project and completely free to use.
-
-However, the amount of effort needed to maintain and develop new features and products within the Roots ecosystem is not sustainable without proper financial backing. If you have the capability, please consider donating using the links below:
-
-<div align="center">
-
-[![Sponsor on GitHub](https://img.shields.io/static/v1?label=sponsor&message=%E2%9D%A4&logo=GitHub&style=flat-square)](https://github.com/sponsors/roots)
-[![Sponsor on Patreon](https://img.shields.io/badge/sponsor-patreon-orange.svg?style=flat-square&logo=patreon")](https://www.patreon.com/rootsdev)
-[![Donate via PayPal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square&logo=paypal)](https://www.paypal.me/rootsdev)
-
-</div>
-
-## Overview
+Fork of [Bedrock](https://roots.io/bedrock/).
 
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
