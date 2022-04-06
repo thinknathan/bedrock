@@ -23,7 +23,7 @@ $root_dir = dirname(__DIR__);
  *
  * @var string
  */
-$webroot_dir = $root_dir . '/../public_html';
+$webroot_dir = dirname(__DIR__, 2) . '/public_html';
 
 /**
  * Use Dotenv to set required environment variables and load .env file in root
