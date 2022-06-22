@@ -1846,15 +1846,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-page-ordering",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-page-ordering/",
-                "reference": "tags/2.4.0"
+                "reference": "tags/2.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.2.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.2.4.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
