@@ -1766,15 +1766,15 @@
         },
         {
             "name": "wpackagist-plugin/post-expirator",
-            "version": "2.7.6",
+            "version": "2.7.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-expirator/",
-                "reference": "tags/2.7.6"
+                "reference": "tags/2.7.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-expirator.2.7.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/post-expirator.2.7.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
