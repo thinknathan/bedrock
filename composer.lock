@@ -465,16 +465,16 @@
         },
         {
             "name": "pivvenit/acf-pro-installer",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pivvenit/acf-pro-installer.git",
-                "reference": "46bd8033458c2605640dff7fbda2af979eab69b9"
+                "reference": "e14e56c23f5596573c01dd87edd4ca890ef2a56a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pivvenit/acf-pro-installer/zipball/46bd8033458c2605640dff7fbda2af979eab69b9",
-                "reference": "46bd8033458c2605640dff7fbda2af979eab69b9",
+                "url": "https://api.github.com/repos/pivvenit/acf-pro-installer/zipball/e14e56c23f5596573c01dd87edd4ca890ef2a56a",
+                "reference": "e14e56c23f5596573c01dd87edd4ca890ef2a56a",
                 "shasum": ""
             },
             "require": {
@@ -527,9 +527,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pivvenit/acf-pro-installer/issues",
-                "source": "https://github.com/pivvenit/acf-pro-installer/tree/3.1.0"
+                "source": "https://github.com/pivvenit/acf-pro-installer/tree/3.2.0"
             },
-            "time": "2022-05-19T18:03:37+00:00"
+            "time": "2022-08-26T07:12:57+00:00"
         },
         {
             "name": "psr/log",
