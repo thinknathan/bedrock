@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name:  Register Theme Directory
  * Plugin URI:   https://github.com/roots/bedrock/
@@ -10,5 +11,5 @@
  */
 
 if (!defined('WP_DEFAULT_THEME')) {
-    register_theme_directory(ABSPATH . 'wp-content/themes');
+	register_theme_directory(ABSPATH . 'wp-content/themes');
 }

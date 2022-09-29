@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Your base production configuration goes in this file. Environment-specific
  * overrides go in their respective config/environments/{{WP_ENV}}.php file.
@@ -9,6 +10,7 @@
  */
 
 use Roots\WPConfig\Config;
+
 use function Env\env;
 
 /**
@@ -30,16 +32,16 @@ $webroot_dir = dirname(__DIR__, 2) . '/public_html';
  * .env.local will override .env if it exists
  */
 $env_files = file_exists($root_dir . '/.env.local')
-    ? ['.env', '.env.local']
-    : ['.env'];
+	? ['.env', '.env.local']
+	: ['.env'];
 
 $dotenv = Dotenv\Dotenv::createUnsafeImmutable($root_dir, $env_files, false);
 if (file_exists($root_dir . '/.env')) {
-    $dotenv->load();
-    $dotenv->required(['WP_HOME', 'WP_SITEURL']);
-    if (!env('DATABASE_URL')) {
-        $dotenv->required(['DB_NAME', 'DB_USER', 'DB_PASSWORD']);
-    }
+	$dotenv->load();
+	$dotenv->required(['WP_HOME', 'WP_SITEURL']);
+	if (!env('DATABASE_URL')) {
+		$dotenv->required(['DB_NAME', 'DB_USER', 'DB_PASSWORD']);
+	}
 }
 
 /**
@@ -52,11 +54,11 @@ define('WP_ENV', env('WP_ENV') ?: 'production');
  * URLs
  */
 if (env('WP_ENV') == 'production') {
-    Config::define('WP_HOME', env('PROD_WP_HOME') ?: env('WP_HOME'));
-    Config::define('WP_SITEURL', env('PROD_WP_SITEURL') ?: env('WP_SITEURL'));
+	Config::define('WP_HOME', env('PROD_WP_HOME') ?: env('WP_HOME'));
+	Config::define('WP_SITEURL', env('PROD_WP_SITEURL') ?: env('WP_SITEURL'));
 } else {
-    Config::define('WP_HOME', env('WP_HOME'));
-    Config::define('WP_SITEURL', env('WP_SITEURL'));
+	Config::define('WP_HOME', env('WP_HOME'));
+	Config::define('WP_SITEURL', env('WP_SITEURL'));
 }
 
 /**
@@ -70,29 +72,29 @@ Config::define('WP_CONTENT_URL', Config::get('WP_HOME') . Config::get('CONTENT_D
  * DB settings
  */
 if (env('WP_ENV') == 'production') {
-    Config::define('DB_NAME', env('PROD_DB_NAME') ?: env('DB_NAME'));
-    Config::define('DB_USER', env('PROD_DB_USER') ?: env('DB_USER'));
-    Config::define('DB_PASSWORD', env('PROD_DB_PASS') ?:env('DB_PASSWORD'));
-    Config::define('DB_HOST', env('DB_HOST') ?: 'localhost');
-    Config::define('DB_CHARSET', 'utf8mb4');
-    Config::define('DB_COLLATE', '');
+	Config::define('DB_NAME', env('PROD_DB_NAME') ?: env('DB_NAME'));
+	Config::define('DB_USER', env('PROD_DB_USER') ?: env('DB_USER'));
+	Config::define('DB_PASSWORD', env('PROD_DB_PASS') ?: env('DB_PASSWORD'));
+	Config::define('DB_HOST', env('DB_HOST') ?: 'localhost');
+	Config::define('DB_CHARSET', 'utf8mb4');
+	Config::define('DB_COLLATE', '');
 } else {
-    Config::define('DB_NAME', env('DB_NAME'));
-    Config::define('DB_USER', env('DB_USER'));
-    Config::define('DB_PASSWORD', env('DB_PASSWORD'));
-    Config::define('DB_HOST', env('DB_HOST') ?: 'localhost');
-    Config::define('DB_CHARSET', 'utf8mb4');
-    Config::define('DB_COLLATE', '');
+	Config::define('DB_NAME', env('DB_NAME'));
+	Config::define('DB_USER', env('DB_USER'));
+	Config::define('DB_PASSWORD', env('DB_PASSWORD'));
+	Config::define('DB_HOST', env('DB_HOST') ?: 'localhost');
+	Config::define('DB_CHARSET', 'utf8mb4');
+	Config::define('DB_COLLATE', '');
 }
 $table_prefix = env('DB_PREFIX') ?: 'wp_';
 
 if (env('DATABASE_URL')) {
-    $dsn = (object) parse_url(env('DATABASE_URL'));
+	$dsn = (object) parse_url(env('DATABASE_URL'));
 
-    Config::define('DB_NAME', substr($dsn->path, 1));
-    Config::define('DB_USER', $dsn->user);
-    Config::define('DB_PASSWORD', isset($dsn->pass) ? $dsn->pass : null);
-    Config::define('DB_HOST', isset($dsn->port) ? "{$dsn->host}:{$dsn->port}" : $dsn->host);
+	Config::define('DB_NAME', substr($dsn->path, 1));
+	Config::define('DB_USER', $dsn->user);
+	Config::define('DB_PASSWORD', isset($dsn->pass) ? $dsn->pass : null);
+	Config::define('DB_HOST', isset($dsn->port) ? "{$dsn->host}:{$dsn->port}" : $dsn->host);
 }
 
 /**
@@ -113,7 +115,7 @@ Config::define('NONCE_SALT', env('NONCE_SALT'));
 Config::define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 // Disable the plugin and theme file editor in the admin
 Config::define('DISALLOW_FILE_EDIT', true);
-// Limit the number of post revisions that Wordpress stores (true (default WP): store every revision)
+// Limit the number of post revisions that WordPress stores (true (default WP): store every revision)
 Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: true);
 
 /**
@@ -129,13 +131,13 @@ ini_set('display_errors', '0');
  * See https://codex.wordpress.org/Function_Reference/is_ssl#Notes
  */
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
-    $_SERVER['HTTPS'] = 'on';
+	$_SERVER['HTTPS'] = 'on';
 }
 
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
 if (file_exists($env_config)) {
-    require_once $env_config;
+	require_once $env_config;
 }
 
 Config::apply();
@@ -144,5 +146,5 @@ Config::apply();
  * Bootstrap WordPress
  */
 if (!defined('ABSPATH')) {
-    define('ABSPATH', $webroot_dir . '/wp/');
+	define('ABSPATH', $webroot_dir . '/wp/');
 }
