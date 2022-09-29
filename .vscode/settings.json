@@ -1,0 +1,18 @@
+{
+	"editor.formatOnSave": true,
+	"phpSniffer.autoDetect": true,
+	"editor.insertSpaces": false,
+	"editor.formatOnPaste": true,
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[md]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[php]": {
+		"editor.defaultFormatter": "wongjn.php-sniffer",
+		"editor.formatOnPaste": false
+	}
+}

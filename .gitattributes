@@ -1,4 +1,6 @@
 /.circleci export-ignore
 /.editorconfig export-ignore
 /.gitattributes export-ignore
-/.github export-ignore
+/.vscode export-ignore
+/.phpcs.xml export-ignore
+/.prettierrc.js export-ignore
