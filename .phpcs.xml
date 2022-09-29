@@ -46,11 +46,7 @@
 	<rule ref="WordPress.CodeAnalysis.EscapedNotTranslated"/>
 	<rule ref="WordPress.DB"/>
 	<rule ref="WordPress.DateTime"/>
-	<rule ref="WordPress.Security">
-		<properties>
-			<property name="customAutoEscapedFunctions" type="array" value="get_title,get_html,get_attr,get_url,get_email,local_image,get_csp,"/>
-		</properties>
-	</rule>
+	<rule ref="WordPress.Security"/>
 	<rule ref="WordPress.Utils.I18nTextDomainFixer"/>
 	<rule ref="WordPress.PHP">
 			<exclude name="WordPress.PHP.YodaConditions"/>
