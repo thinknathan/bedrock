@@ -59,7 +59,7 @@
 		},
 		{
 			"type": "composer",
-			"url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
+			"url": "https://connect.advancedcustomfields.com"
 		},
 		{
 			"type": "vcs",
@@ -77,7 +77,7 @@
 		"roots/wordpress": "6.1.1",
 		"roots/wp-config": "1.0.0",
 		"roots/wp-password-bcrypt": "1.1.0",
-		"advanced-custom-fields/advanced-custom-fields-pro": "^6.0",
+		"wpengine/advanced-custom-fields-pro": "*",
 		"wp-media/wp-rocket": "dev-master",
 		"thinknathan/wp-abettor": "dev-master",
 		"thinknathan/wp-install-premium-keys": "dev-master",
@@ -91,11 +91,9 @@
 		"wpackagist-plugin/simple-page-ordering": "*",
 		"wpackagist-plugin/wordfence": "*",
 		"wpackagist-plugin/redirection": "*",
-		"wpackagist-plugin/sucuri-scanner": "*",
 		"wpackagist-plugin/relevanssi": "*",
 		"wpackagist-plugin/instant-images": "*",
 		"wpackagist-plugin/radio-buttons-for-taxonomies": "*",
-		"wpackagist-plugin/tao-schedule-update": "*",
 		"wpackagist-plugin/post-expirator": "*"
 	},
 	"require-dev": {
@@ -108,9 +106,9 @@
 		"preferred-install": "dist",
 		"allow-plugins": {
 			"dealerdirect/phpcodesniffer-composer-installer": true,
-			"pivvenit/acf-pro-installer": true,
 			"composer/installers": true,
-			"roots/wordpress-core-installer": true
+			"roots/wordpress-core-installer": true,
+			"pivvenit/acf-pro-installer": false
 		}
 	},
 	"minimum-stability": "dev",
