@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a307aa24025e38e5d76e3db59aebe9a0",
+    "content-hash": "b329c260fdca3206d61d7fb44677c4d1",
     "packages": [
         {
             "name": "composer/installers",
@@ -1317,22 +1317,22 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "dev-master",
+            "version": "v3.12.6.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/thinknathan/wp-rocket",
-                "reference": "c8a7a674e615d8e850dc44f160e9fae200cb4794"
+                "url": "https://github.com/wp-media/wp-rocket.git",
+                "reference": "33e8242f134c2ef2a1265ed4b3d754429002f983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thinknathan/wp-rocket/zipball/c8a7a674e615d8e850dc44f160e9fae200cb4794",
-                "reference": "c8a7a674e615d8e850dc44f160e9fae200cb4794",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/33e8242f134c2ef2a1265ed4b3d754429002f983",
+                "reference": "33e8242f134c2ef2a1265ed4b3d754429002f983",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0",
-                "monolog/monolog": "^1.0",
-                "php": ">=7.0"
+                "monolog/monolog": "^1.0 || ^2.0",
+                "php": ">=7.2"
             },
             "require-dev": {
                 "brain/monkey": "^2.0",
@@ -1352,21 +1352,18 @@
                 "woocommerce/action-scheduler": "^3.4",
                 "wp-coding-standards/wpcs": "^2",
                 "wp-media/background-processing": "^1.3",
-                "wp-media/cloudflare": "^1.0",
-                "wp-media/module-rocketcdn": "^2.0",
-                "wp-media/module-varnish": "^2.0",
-                "wp-media/phpunit": "^3.0",
+                "wp-media/phpunit": "^3.0.1",
                 "wp-media/rocket-lazyload-common": "^3.0",
                 "wp-media/wp-imagify-partner": "^1.0",
                 "wpackagist-plugin/amp": "^1.1.4",
                 "wpackagist-plugin/hummingbird-performance": "2.0.1",
+                "wpackagist-plugin/jetpack": "9.3.2",
                 "wpackagist-plugin/pdf-embedder": "^4.6",
                 "wpackagist-plugin/simple-custom-css": "^4.0.3",
                 "wpackagist-plugin/spinupwp": "^1.1",
-                "wpackagist-plugin/woocommerce": "^4.9.2",
+                "wpackagist-plugin/woocommerce": "^5.3",
                 "wpackagist-plugin/wp-smushit": "^3.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "extra": {
                 "installer-paths": {
@@ -1375,15 +1372,6 @@
                     ],
                     "vendor/{$vendor}/{$name}/": [
                         "type:wordpress-plugin"
-                    ],
-                    "./inc/Addon/Cloudflare/": [
-                        "wp-media/cloudflare"
-                    ],
-                    "./inc/Addon/Varnish/": [
-                        "wp-media/module-varnish"
-                    ],
-                    "./inc/Engine/CDN/RocketCDN/": [
-                        "wp-media/module-rocketcdn"
                     ]
                 },
                 "mozart": {
@@ -1401,6 +1389,10 @@
                 }
             },
             "autoload": {
+                "psr-4": {
+                    "WP_Rocket\\": "inc/",
+                    "WPMedia\\Cloudflare\\": "inc/Addon/Cloudflare/"
+                },
                 "classmap": [
                     "inc/classes",
                     "inc/vendors/classes",
@@ -1409,151 +1401,9 @@
                 "exclude-from-classmap": [
                     "inc/vendors/classes/class-rocket-mobile-detect.php",
                     "inc/classes/class-wp-rocket-requirements-check.php"
-                ],
-                "psr-4": {
-                    "WP_Rocket\\": "inc/",
-                    "WPMedia\\Cloudflare\\": "inc/Addon/Cloudflare/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "WP_Rocket\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test-unit": [
-                    "\"vendor/bin/phpunit\" --testsuite unit --colors=always --configuration tests/Unit/phpunit.xml.dist"
-                ],
-                "test-integration": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --exclude-group AdminOnly,BeaverBuilder,Elementor,Hummingbird,WithSmush,WithWoo,WithAmp,WithAmpAndCloudflare,WithSCCSS,Cloudways,Dreampress,DoCloudflare,Multisite,WPEngine,SpinUpWP,WordPressCom,O2Switch,PDFEmbedder,PDFEmbedderPremium,PDFEmbedderSecure,Godaddy,LiteSpeed,RevolutionSlider,WordFence"
-                ],
-                "test-integration-adminonly": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group AdminOnly"
-                ],
-                "test-integration-bb": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group BeaverBuilder"
-                ],
-                "test-integration-cloudflare": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group DoCloudflare"
-                ],
-                "test-integration-cloudways": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group Cloudways"
-                ],
-                "test-integration-elementor": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group Elementor"
-                ],
-                "test-integration-hummingbird": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group Hummingbird"
-                ],
-                "test-integration-multisite": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group Multisite"
-                ],
-                "test-integration-withsmush": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group WithSmush"
-                ],
-                "test-integration-withamp": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group WithAmp"
-                ],
-                "test-integration-withampcloudflare": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group WithAmpAndCloudflare"
-                ],
-                "test-integration-withsccss": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group WithSCCSS"
-                ],
-                "test-integration-withwoo": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group WithWoo"
-                ],
-                "test-integration-wpengine": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group WPEngine"
-                ],
-                "test-integration-spinupwp": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group SpinUpWP"
-                ],
-                "test-integration-wpcom": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group WordPressCom"
-                ],
-                "test-integration-pdfembedder": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group PDFEmbedder"
-                ],
-                "test-integration-pdfembedderpremium": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group PDFEmbedderPremium"
-                ],
-                "test-integration-pdfembeddersecure": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group PDFEmbedderSecure"
-                ],
-                "test-integration-o2switch": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group O2Switch"
-                ],
-                "test-integration-dreampress": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group Dreampress"
-                ],
-                "test-integration-godaddy": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group Godaddy"
-                ],
-                "test-integration-revolutionslider": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group RevolutionSlider"
-                ],
-                "test-integration-litespeed": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group LiteSpeed"
-                ],
-                "test-integration-wordfence": [
-                    "\"vendor/bin/phpunit\" --testsuite integration --colors=always --configuration tests/Integration/phpunit.xml.dist --group WordFence"
-                ],
-                "run-tests": [
-                    "@test-unit",
-                    "@test-integration",
-                    "@test-integration-adminonly",
-                    "@test-integration-cloudflare",
-                    "@test-integration-bb",
-                    "@test-integration-elementor",
-                    "@test-integration-hummingbird",
-                    "@test-integration-withamp",
-                    "@test-integration-withampcloudflare",
-                    "@test-integration-withsccss",
-                    "@test-integration-withsmush",
-                    "@test-integration-withwoo",
-                    "@test-integration-pdfembedder",
-                    "@test-integration-pdfembedderpremium",
-                    "@test-integration-pdfembeddersecure",
-                    "@test-integration-multisite",
-                    "@test-integration-cloudways",
-                    "@test-integration-wpengine",
-                    "@test-integration-spinupwp",
-                    "@test-integration-wpcom",
-                    "@test-integration-o2switch",
-                    "@test-integration-dreampress",
-                    "@test-integration-godaddy",
-                    "@test-integration-revolutionslider",
-                    "@test-integration-litespeed",
-                    "@test-integration-wordfence"
-                ],
-                "run-stan": [
-                    "vendor/bin/phpstan analyze --memory-limit=2G --no-progress"
-                ],
-                "install-codestandards": [
-                    "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
-                ],
-                "phpcs": [
-                    "phpcs --basepath=."
-                ],
-                "phpcs-changed": [
-                    "./bin/phpcs-changed.sh"
-                ],
-                "phpcs:fix": [
-                    "phpcbf"
-                ],
-                "post-install-cmd": [
-                    "\"vendor/bin/mozart\" compose",
-                    "composer dump-autoload"
-                ],
-                "post-update-cmd": [
-                    "\"vendor/bin/mozart\" compose",
-                    "composer dump-autoload"
-                ],
-                "code-coverage": [
-                    "\"vendor/bin/phpunit\" --testsuite unit --colors=always --configuration tests/Unit/phpunit.xml.dist --coverage-clover=tests/report/coverage.clover"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -1576,7 +1426,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2023-03-04T19:05:33+00:00"
+            "time": "2023-03-06T19:54:34+00:00"
         },
         {
             "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
@@ -2795,7 +2645,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "wp-media/wp-rocket": 20,
         "thinknathan/wp-abettor": 20,
         "thinknathan/wp-install-premium-keys": 20,
         "wp-coding-standards/wpcs": 20,
