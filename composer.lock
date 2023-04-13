@@ -1852,16 +1852,16 @@
         },
         {
             "name": "phpcsstandards/phpcsutils",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHPCSUtils.git",
-                "reference": "e74812ac026d9f9f18a936d29880b2db3211f89d"
+                "reference": "73d7b070704b0e36c044cf15f648757c10227af9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/e74812ac026d9f9f18a936d29880b2db3211f89d",
-                "reference": "e74812ac026d9f9f18a936d29880b2db3211f89d",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/73d7b070704b0e36c044cf15f648757c10227af9",
+                "reference": "73d7b070704b0e36c044cf15f648757c10227af9",
                 "shasum": ""
             },
             "require": {
@@ -1922,7 +1922,7 @@
                 "issues": "https://github.com/PHPCSStandards/PHPCSUtils/issues",
                 "source": "https://github.com/PHPCSStandards/PHPCSUtils"
             },
-            "time": "2023-03-28T16:57:37+00:00"
+            "time": "2023-04-13T02:26:54+00:00"
         },
         {
             "name": "roave/security-advisories",
