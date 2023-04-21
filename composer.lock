@@ -1532,15 +1532,15 @@
         },
         {
             "name": "wpackagist-plugin/instant-images",
-            "version": "5.2.0.2",
+            "version": "5.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/instant-images/",
-                "reference": "tags/5.2.0.2"
+                "reference": "tags/5.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instant-images.5.2.0.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/instant-images.5.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
