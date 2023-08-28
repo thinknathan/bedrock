@@ -1654,15 +1654,15 @@
         },
         {
             "name": "wpackagist-plugin/relevanssi",
-            "version": "4.20.0",
+            "version": "4.21.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/relevanssi/",
-                "reference": "tags/4.20.0"
+                "reference": "tags/4.21.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.20.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.21.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
