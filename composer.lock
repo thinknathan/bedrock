@@ -1226,16 +1226,16 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.15.0.1",
+            "version": "v3.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "240d37d8d753dc18853c1c8fdb052ece6df7c93e"
+                "reference": "c1e79acfd0342825615be29186cdbf0a9de9016d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/240d37d8d753dc18853c1c8fdb052ece6df7c93e",
-                "reference": "240d37d8d753dc18853c1c8fdb052ece6df7c93e",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/c1e79acfd0342825615be29186cdbf0a9de9016d",
+                "reference": "c1e79acfd0342825615be29186cdbf0a9de9016d",
                 "shasum": ""
             },
             "require": {
@@ -1337,7 +1337,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2023-09-12T15:51:49+00:00"
+            "time": "2023-09-25T14:58:53+00:00"
         },
         {
             "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
