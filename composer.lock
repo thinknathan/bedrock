@@ -1226,16 +1226,16 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.15.1",
+            "version": "v3.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "c1e79acfd0342825615be29186cdbf0a9de9016d"
+                "reference": "619644d603a448151aa1fd3a023576e4d091933b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/c1e79acfd0342825615be29186cdbf0a9de9016d",
-                "reference": "c1e79acfd0342825615be29186cdbf0a9de9016d",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/619644d603a448151aa1fd3a023576e4d091933b",
+                "reference": "619644d603a448151aa1fd3a023576e4d091933b",
                 "shasum": ""
             },
             "require": {
@@ -1259,7 +1259,7 @@
                 "roave/security-advisories": "dev-master",
                 "szepeviktor/phpstan-wordpress": "^1.3",
                 "woocommerce/action-scheduler": "^3.4",
-                "wp-coding-standards/wpcs": "^2",
+                "wp-coding-standards/wpcs": "^3",
                 "wp-media/background-processing": "^1.3",
                 "wp-media/monolog": "^0.0",
                 "wp-media/phpunit": "^3",
@@ -1337,7 +1337,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2023-09-25T14:58:53+00:00"
+            "time": "2023-10-10T08:31:18+00:00"
         },
         {
             "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
