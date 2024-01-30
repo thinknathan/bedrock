@@ -1,7 +1,5 @@
 # [Bedrock](https://roots.io/bedrock/)
 
-[![Build Status](https://img.shields.io/travis/thinknathan/bedrock.svg?style=flat-square)](https://travis-ci.org/thinknathan/bedrock)
-
 Fork of [Bedrock](https://roots.io/bedrock/).
 
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
