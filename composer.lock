@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83d5011d218462269f807da4904d61de",
+    "content-hash": "2301e4bb170da45bd6f6431f1dbb6e9d",
     "packages": [
         {
             "name": "cloudflare/cf-ip-rewrite",
@@ -1226,16 +1226,16 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.15.8.1",
+            "version": "v3.15.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "25bf61efd71a997a92896711c85d356ad76b00af"
+                "reference": "d7f250d6978c7de7e92017c5c3df1864338e51eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/25bf61efd71a997a92896711c85d356ad76b00af",
-                "reference": "25bf61efd71a997a92896711c85d356ad76b00af",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/d7f250d6978c7de7e92017c5c3df1864338e51eb",
+                "reference": "d7f250d6978c7de7e92017c5c3df1864338e51eb",
                 "shasum": ""
             },
             "require": {
@@ -1337,7 +1337,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2024-01-23T14:13:57+00:00"
+            "time": "2024-02-01T16:30:45+00:00"
         },
         {
             "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
@@ -2619,7 +2619,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4"
+        "php": ">=8.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
