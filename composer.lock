@@ -1350,15 +1350,15 @@
         },
         {
             "name": "wpackagist-plugin/adminimize",
-            "version": "1.11.10",
+            "version": "1.11.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/adminimize/",
-                "reference": "tags/1.11.10"
+                "reference": "tags/1.11.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/adminimize.1.11.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/adminimize.1.11.11.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
