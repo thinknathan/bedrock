@@ -1217,16 +1217,16 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.15.9",
+            "version": "v3.15.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "d7f250d6978c7de7e92017c5c3df1864338e51eb"
+                "reference": "e1594212ac01b3fcba119c3068afcccfb1637e20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/d7f250d6978c7de7e92017c5c3df1864338e51eb",
-                "reference": "d7f250d6978c7de7e92017c5c3df1864338e51eb",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/e1594212ac01b3fcba119c3068afcccfb1637e20",
+                "reference": "e1594212ac01b3fcba119c3068afcccfb1637e20",
                 "shasum": ""
             },
             "require": {
@@ -1259,7 +1259,7 @@
                 "wpackagist-plugin/amp": "^1.1.4",
                 "wpackagist-plugin/hummingbird-performance": "2.0.1",
                 "wpackagist-plugin/jetpack": "9.3.2",
-                "wpackagist-plugin/pdf-embedder": "^4.6",
+                "wpackagist-plugin/pdf-embedder": "4.6.*",
                 "wpackagist-plugin/simple-custom-css": "^4.0.3",
                 "wpackagist-plugin/spinupwp": "^1.1",
                 "wpackagist-plugin/woocommerce": "^8",
@@ -1328,7 +1328,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2024-02-01T16:30:45+00:00"
+            "time": "2024-03-19T09:43:39+00:00"
         },
         {
             "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
