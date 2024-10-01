@@ -1218,16 +1218,16 @@
         },
         {
             "name": "wp-media/apply-filters-typed",
-            "version": "v1.1",
+            "version": "v1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/apply-filters-typed.git",
-                "reference": "ba4e7864f354582a28eedf8ddac99034b2ea6915"
+                "reference": "d8f5bca83e85196d1f01d92283b63ef6f886ac4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/apply-filters-typed/zipball/ba4e7864f354582a28eedf8ddac99034b2ea6915",
-                "reference": "ba4e7864f354582a28eedf8ddac99034b2ea6915",
+                "url": "https://api.github.com/repos/wp-media/apply-filters-typed/zipball/d8f5bca83e85196d1f01d92283b63ef6f886ac4d",
+                "reference": "d8f5bca83e85196d1f01d92283b63ef6f886ac4d",
                 "shasum": ""
             },
             "require-dev": {
@@ -1256,9 +1256,9 @@
             "description": "Library for usage of WordPress filters in a safe-type way",
             "support": {
                 "issues": "https://github.com/wp-media/apply-filters-typed/issues",
-                "source": "https://github.com/wp-media/apply-filters-typed/tree/v1.1"
+                "source": "https://github.com/wp-media/apply-filters-typed/tree/v1.2"
             },
-            "time": "2024-07-30T13:58:51+00:00"
+            "time": "2024-09-16T12:21:47+00:00"
         },
         {
             "name": "wp-media/wp-rocket",
