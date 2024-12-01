@@ -1697,15 +1697,15 @@
         },
         {
             "name": "wpackagist-plugin/instant-images",
-            "version": "6.1.2",
+            "version": "7.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/instant-images/",
-                "reference": "tags/6.1.2"
+                "reference": "tags/7.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instant-images.6.1.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/instant-images.7.0.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
