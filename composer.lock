@@ -1107,8 +1107,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -1435,16 +1435,16 @@
         },
         {
             "name": "wp-media/plugin-family",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/plugin-family.git",
-                "reference": "9e138461d97ed44c455cdbc4bdd61b2dba6b1bf5"
+                "reference": "83714bdfb7d98d4fe74781844c325be909db13a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/plugin-family/zipball/9e138461d97ed44c455cdbc4bdd61b2dba6b1bf5",
-                "reference": "9e138461d97ed44c455cdbc4bdd61b2dba6b1bf5",
+                "url": "https://api.github.com/repos/wp-media/plugin-family/zipball/83714bdfb7d98d4fe74781844c325be909db13a4",
+                "reference": "83714bdfb7d98d4fe74781844c325be909db13a4",
                 "shasum": ""
             },
             "require-dev": {
@@ -1475,22 +1475,22 @@
             "description": "Organizes and displays WP Media plugin family across other members.",
             "support": {
                 "issues": "https://github.com/wp-media/plugin-family/issues",
-                "source": "https://github.com/wp-media/plugin-family/tree/v1.0.3"
+                "source": "https://github.com/wp-media/plugin-family/tree/v1.0.4"
             },
-            "time": "2024-11-28T16:53:47+00:00"
+            "time": "2024-12-30T10:08:18+00:00"
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.17.3.1",
+            "version": "v3.17.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "d63767c5204c7f854fdba25dad763d938e2b2ec8"
+                "reference": "ec8a36fcaac7f1c16017e583e822447f2dfcb084"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/d63767c5204c7f854fdba25dad763d938e2b2ec8",
-                "reference": "d63767c5204c7f854fdba25dad763d938e2b2ec8",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/ec8a36fcaac7f1c16017e583e822447f2dfcb084",
+                "reference": "ec8a36fcaac7f1c16017e583e822447f2dfcb084",
                 "shasum": ""
             },
             "require": {
@@ -1556,6 +1556,7 @@
                     "classmap_prefix": "WP_Rocket_",
                     "classmap_directory": "/inc/classes/dependencies/"
                 },
+                "plugin_domain": "rocket",
                 "installer-paths": {
                     "vendor/{$vendor}/{$name}/": [
                         "type:wordpress-plugin"
@@ -1603,7 +1604,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2024-11-25T10:30:30+00:00"
+            "time": "2024-12-30T19:38:25+00:00"
         },
         {
             "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
