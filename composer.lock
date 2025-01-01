@@ -1715,15 +1715,15 @@
         },
         {
             "name": "wpackagist-plugin/post-expirator",
-            "version": "4.1.3",
+            "version": "4.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-expirator/",
-                "reference": "tags/4.1.3"
+                "reference": "tags/4.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-expirator.4.1.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/post-expirator.4.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
