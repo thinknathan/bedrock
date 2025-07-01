@@ -1607,15 +1607,15 @@
         },
         {
             "name": "wpackagist-plugin/force-regenerate-thumbnails",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
-                "reference": "tags/2.2.1"
+                "reference": "tags/2.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.2.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
