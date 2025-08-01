@@ -1891,10 +1891,10 @@
         },
         {
             "name": "wpengine/advanced-custom-fields-pro",
-            "version": "6.4.2",
+            "version": "6.4.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/v2/plugins/composer_download?s=composer&p=pro&t=6.4.2"
+                "url": "https://connect.advancedcustomfields.com/v2/plugins/composer_download?s=composer&p=pro&t=6.4.3"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -3088,16 +3088,16 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "roave/security-advisories": 20,
         "thinknathan/wp-abettor": 20,
         "thinknathan/wp-install-premium-keys": 20,
-        "wp-coding-standards/wpcs": 20,
-        "roave/security-advisories": 20
+        "wp-coding-standards/wpcs": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
