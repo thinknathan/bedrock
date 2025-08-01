@@ -1411,16 +1411,16 @@
         },
         {
             "name": "wp-media/plugin-family",
-            "version": "v1.0.4",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/plugin-family.git",
-                "reference": "83714bdfb7d98d4fe74781844c325be909db13a4"
+                "reference": "ab5067661eef2d04f645d74de797ae2193d8c58f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/plugin-family/zipball/83714bdfb7d98d4fe74781844c325be909db13a4",
-                "reference": "83714bdfb7d98d4fe74781844c325be909db13a4",
+                "url": "https://api.github.com/repos/wp-media/plugin-family/zipball/ab5067661eef2d04f645d74de797ae2193d8c58f",
+                "reference": "ab5067661eef2d04f645d74de797ae2193d8c58f",
                 "shasum": ""
             },
             "require-dev": {
@@ -1451,9 +1451,9 @@
             "description": "Organizes and displays WP Media plugin family across other members.",
             "support": {
                 "issues": "https://github.com/wp-media/plugin-family/issues",
-                "source": "https://github.com/wp-media/plugin-family/tree/v1.0.4"
+                "source": "https://github.com/wp-media/plugin-family/tree/v1.0.6"
             },
-            "time": "2024-12-30T10:08:18+00:00"
+            "time": "2025-07-21T12:25:10+00:00"
         },
         {
             "name": "wp-media/wp-mixpanel",
@@ -3088,16 +3088,16 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "roave/security-advisories": 20,
         "thinknathan/wp-abettor": 20,
         "thinknathan/wp-install-premium-keys": 20,
-        "wp-coding-standards/wpcs": 20,
-        "roave/security-advisories": 20
+        "wp-coding-standards/wpcs": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
