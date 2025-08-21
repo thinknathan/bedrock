@@ -79,7 +79,6 @@
 		"wpackagist-plugin/duplicate-post": "*",
 		"wpackagist-plugin/better-search-replace": "*",
 		"wpackagist-plugin/wordpress-seo": "*",
-		"wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
 		"wpackagist-plugin/adminimize": "*",
 		"wpackagist-plugin/simple-page-ordering": "*",
 		"wpackagist-plugin/wordfence": "*",
