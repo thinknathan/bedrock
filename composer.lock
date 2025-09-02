@@ -787,20 +787,20 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v7.3.0",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "601a5ce9aaad7bf10797e3663faefce9e26c24e2"
+                "reference": "9b784413143701aa3c94ac1869a159a9e53e8761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/601a5ce9aaad7bf10797e3663faefce9e26c24e2",
-                "reference": "601a5ce9aaad7bf10797e3663faefce9e26c24e2",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/9b784413143701aa3c94ac1869a159a9e53e8761",
+                "reference": "9b784413143701aa3c94ac1869a159a9e53e8761",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2"
+                "php": ">=8.1"
             },
             "type": "library",
             "autoload": {
@@ -832,7 +832,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v7.3.0"
+                "source": "https://github.com/symfony/css-selector/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -844,11 +844,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:21:43+00:00"
+            "time": "2025-07-10T08:14:14+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1416,16 +1420,16 @@
         },
         {
             "name": "wp-media/wp-mixpanel",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-mixpanel.git",
-                "reference": "0646d525f0624b13c336ff2829713d9a37192c46"
+                "reference": "1eddae0d32f802ac14003c80c7ff096adf8e232f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-mixpanel/zipball/0646d525f0624b13c336ff2829713d9a37192c46",
-                "reference": "0646d525f0624b13c336ff2829713d9a37192c46",
+                "url": "https://api.github.com/repos/wp-media/wp-mixpanel/zipball/1eddae0d32f802ac14003c80c7ff096adf8e232f",
+                "reference": "1eddae0d32f802ac14003c80c7ff096adf8e232f",
                 "shasum": ""
             },
             "require": {
@@ -1465,22 +1469,22 @@
             "description": "WordPress Mixpanel Integration",
             "support": {
                 "issues": "https://github.com/wp-media/wp-mixpanel/issues",
-                "source": "https://github.com/wp-media/wp-mixpanel/tree/v1.1.1"
+                "source": "https://github.com/wp-media/wp-mixpanel/tree/v1.1.2"
             },
-            "time": "2025-08-04T16:14:18+00:00"
+            "time": "2025-08-20T18:28:16+00:00"
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.19.3",
+            "version": "v3.19.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "af8dae39d9d539589ee182727dedd94c5f7d65cb"
+                "reference": "4e4d370802272f3f0fdd845659f4f400a309cfd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/af8dae39d9d539589ee182727dedd94c5f7d65cb",
-                "reference": "af8dae39d9d539589ee182727dedd94c5f7d65cb",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/4e4d370802272f3f0fdd845659f4f400a309cfd5",
+                "reference": "4e4d370802272f3f0fdd845659f4f400a309cfd5",
                 "shasum": ""
             },
             "require": {
@@ -1596,7 +1600,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2025-08-06T08:18:40+00:00"
+            "time": "2025-08-25T06:48:02+00:00"
         },
         {
             "name": "wpackagist-plugin/adminimize",
@@ -3261,16 +3265,16 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "roave/security-advisories": 20,
         "thinknathan/wp-abettor": 20,
         "thinknathan/wp-install-premium-keys": 20,
-        "wp-coding-standards/wpcs": 20,
-        "roave/security-advisories": 20
+        "wp-coding-standards/wpcs": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.1"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
