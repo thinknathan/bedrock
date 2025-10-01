@@ -1820,15 +1820,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "25.7",
+            "version": "26.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/25.7"
+                "reference": "tags/26.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.25.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.26.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
