@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "berlindb/core",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/berlindb/core.git",
-                "reference": "7dcddaddcffb69c58800d2fb3f6f169791cab1f7"
+                "reference": "6a9383ab2dad726bf2d6dbda6687da848eda22ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/berlindb/core/zipball/7dcddaddcffb69c58800d2fb3f6f169791cab1f7",
-                "reference": "7dcddaddcffb69c58800d2fb3f6f169791cab1f7",
+                "url": "https://api.github.com/repos/berlindb/core/zipball/6a9383ab2dad726bf2d6dbda6687da848eda22ea",
+                "reference": "6a9383ab2dad726bf2d6dbda6687da848eda22ea",
                 "shasum": ""
             },
             "type": "library",
@@ -33,9 +33,9 @@
             "description": "A collection of PHP classes and functions that aims to provide an ORM-like experience and interface to WordPress database tables.",
             "support": {
                 "issues": "https://github.com/berlindb/core/issues",
-                "source": "https://github.com/berlindb/core/tree/2.0.1"
+                "source": "https://github.com/berlindb/core/tree/2.0.2"
             },
-            "time": "2022-03-10T21:12:11+00:00"
+            "time": "2025-10-23T20:00:35+00:00"
         },
         {
             "name": "cloudflare/cf-ip-rewrite",
