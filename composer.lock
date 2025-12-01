@@ -1421,16 +1421,16 @@
         },
         {
             "name": "wp-media/wp-mixpanel",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-mixpanel.git",
-                "reference": "402d47230c2118c0cd40e64b0aa8d936b30d4e4f"
+                "reference": "dfedab2014e816a1040c57d544a6180f1d446624"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-mixpanel/zipball/402d47230c2118c0cd40e64b0aa8d936b30d4e4f",
-                "reference": "402d47230c2118c0cd40e64b0aa8d936b30d4e4f",
+                "url": "https://api.github.com/repos/wp-media/wp-mixpanel/zipball/dfedab2014e816a1040c57d544a6180f1d446624",
+                "reference": "dfedab2014e816a1040c57d544a6180f1d446624",
                 "shasum": ""
             },
             "require": {
@@ -1470,22 +1470,22 @@
             "description": "WordPress Mixpanel Integration",
             "support": {
                 "issues": "https://github.com/wp-media/wp-mixpanel/issues",
-                "source": "https://github.com/wp-media/wp-mixpanel/tree/v1.3.0"
+                "source": "https://github.com/wp-media/wp-mixpanel/tree/v1.4.0"
             },
-            "time": "2025-10-06T10:12:28+00:00"
+            "time": "2025-11-12T09:51:35+00:00"
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.20.0.3",
+            "version": "v3.20.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "605d660fd7083d11954b12dc8f21b429b2cd9ad6"
+                "reference": "be7fb39be6bce19cb01691cef5ea705793faa43f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/605d660fd7083d11954b12dc8f21b429b2cd9ad6",
-                "reference": "605d660fd7083d11954b12dc8f21b429b2cd9ad6",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/be7fb39be6bce19cb01691cef5ea705793faa43f",
+                "reference": "be7fb39be6bce19cb01691cef5ea705793faa43f",
                 "shasum": ""
             },
             "require": {
@@ -1601,7 +1601,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2025-10-28T08:23:51+00:00"
+            "time": "2025-11-12T13:29:28+00:00"
         },
         {
             "name": "wpackagist-plugin/adminimize",
