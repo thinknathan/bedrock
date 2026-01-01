@@ -1375,17 +1375,20 @@
         },
         {
             "name": "wp-media/plugin-family",
-            "version": "v1.0.6",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/plugin-family.git",
-                "reference": "ab5067661eef2d04f645d74de797ae2193d8c58f"
+                "reference": "b763b3338e19ca672c407213da4cd8739e9327c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/plugin-family/zipball/ab5067661eef2d04f645d74de797ae2193d8c58f",
-                "reference": "ab5067661eef2d04f645d74de797ae2193d8c58f",
+                "url": "https://api.github.com/repos/wp-media/plugin-family/zipball/b763b3338e19ca672c407213da4cd8739e9327c2",
+                "reference": "b763b3338e19ca672c407213da4cd8739e9327c2",
                 "shasum": ""
+            },
+            "require": {
+                "wp-media/apply-filters-typed": "^1.0"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
@@ -1415,9 +1418,9 @@
             "description": "Organizes and displays WP Media plugin family across other members.",
             "support": {
                 "issues": "https://github.com/wp-media/plugin-family/issues",
-                "source": "https://github.com/wp-media/plugin-family/tree/v1.0.6"
+                "source": "https://github.com/wp-media/plugin-family/tree/v1.0.8"
             },
-            "time": "2025-07-21T12:25:10+00:00"
+            "time": "2025-12-29T12:10:38+00:00"
         },
         {
             "name": "wp-media/wp-mixpanel",
@@ -1476,16 +1479,16 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.20.1.2",
+            "version": "v3.20.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "be7fb39be6bce19cb01691cef5ea705793faa43f"
+                "reference": "9c9bb63f1b45f6be34378cf3102a5d444f1fb66d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/be7fb39be6bce19cb01691cef5ea705793faa43f",
-                "reference": "be7fb39be6bce19cb01691cef5ea705793faa43f",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/9c9bb63f1b45f6be34378cf3102a5d444f1fb66d",
+                "reference": "9c9bb63f1b45f6be34378cf3102a5d444f1fb66d",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1498,7 @@
                 "php": ">=7.3",
                 "voku/simple_html_dom": "^4.8",
                 "wp-media/apply-filters-typed": "^1.0",
-                "wp-media/plugin-family": "1.0.6",
+                "wp-media/plugin-family": "1.0.8",
                 "wp-media/wp-mixpanel": "^1.0"
             },
             "require-dev": {
@@ -1601,7 +1604,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2025-11-12T13:29:28+00:00"
+            "time": "2025-12-30T16:23:41+00:00"
         },
         {
             "name": "wpackagist-plugin/adminimize",
