@@ -7,38 +7,6 @@
     "content-hash": "f1aa3aeab805589c619be47ceb859aa4",
     "packages": [
         {
-            "name": "berlindb/core",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/berlindb/core.git",
-                "reference": "cff87fafedda560dd4ad768d4dd1afb68a36b8c0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/berlindb/core/zipball/cff87fafedda560dd4ad768d4dd1afb68a36b8c0",
-                "reference": "cff87fafedda560dd4ad768d4dd1afb68a36b8c0",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BerlinDB\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A collection of PHP classes and functions that aims to provide an ORM-like experience and interface to WordPress database tables.",
-            "support": {
-                "issues": "https://github.com/berlindb/core/issues",
-                "source": "https://github.com/berlindb/core/tree/master"
-            },
-            "time": "2025-10-31T03:22:40+00:00"
-        },
-        {
             "name": "cloudflare/cf-ip-rewrite",
             "version": "1.0.4",
             "source": {
@@ -788,16 +756,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v6.4.24",
+            "version": "v6.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "9b784413143701aa3c94ac1869a159a9e53e8761"
+                "reference": "b0314c186f1464de048cce58979ff1625ca88bbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/9b784413143701aa3c94ac1869a159a9e53e8761",
-                "reference": "9b784413143701aa3c94ac1869a159a9e53e8761",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/b0314c186f1464de048cce58979ff1625ca88bbb",
+                "reference": "b0314c186f1464de048cce58979ff1625ca88bbb",
                 "shasum": ""
             },
             "require": {
@@ -833,7 +801,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v6.4.24"
+                "source": "https://github.com/symfony/css-selector/tree/v6.4.34"
             },
             "funding": [
                 {
@@ -853,7 +821,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-10T08:14:14+00:00"
+            "time": "2026-02-16T08:37:21+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1479,20 +1447,19 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.20.3",
+            "version": "v3.20.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "9c9bb63f1b45f6be34378cf3102a5d444f1fb66d"
+                "reference": "6f8a705e6f45bccbab1b0a4acf72001f11e611b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/9c9bb63f1b45f6be34378cf3102a5d444f1fb66d",
-                "reference": "9c9bb63f1b45f6be34378cf3102a5d444f1fb66d",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/6f8a705e6f45bccbab1b0a4acf72001f11e611b7",
+                "reference": "6f8a705e6f45bccbab1b0a4acf72001f11e611b7",
                 "shasum": ""
             },
             "require": {
-                "berlindb/core": "dev-master",
                 "cloudflare/cf-ip-rewrite": "^1.0",
                 "composer/installers": "^1.0 || ^2.0",
                 "php": ">=7.3",
@@ -1502,6 +1469,7 @@
                 "wp-media/wp-mixpanel": "^1.0"
             },
             "require-dev": {
+                "berlindb/core": "2.0.2",
                 "brain/monkey": "^2.0",
                 "coenjacobs/mozart": "^0.7",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
@@ -1604,7 +1572,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2025-12-30T16:23:41+00:00"
+            "time": "2026-02-24T11:59:04+00:00"
         },
         {
             "name": "wpackagist-plugin/adminimize",
