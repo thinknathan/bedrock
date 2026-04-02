@@ -1447,16 +1447,16 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.20.5",
+            "version": "v3.21.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "6f8a705e6f45bccbab1b0a4acf72001f11e611b7"
+                "reference": "4cf40fe1b4fe7482d17cd7f513b315c1909c989a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/6f8a705e6f45bccbab1b0a4acf72001f11e611b7",
-                "reference": "6f8a705e6f45bccbab1b0a4acf72001f11e611b7",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/4cf40fe1b4fe7482d17cd7f513b315c1909c989a",
+                "reference": "4cf40fe1b4fe7482d17cd7f513b315c1909c989a",
                 "shasum": ""
             },
             "require": {
@@ -1496,6 +1496,7 @@
                 "wp-media/wp-imagify-partner": "^1.0",
                 "wpackagist-plugin/amp": "^1.1.4",
                 "wpackagist-plugin/cloudflare": "4.12.7",
+                "wpackagist-plugin/ewww-image-optimizer": "^8.4",
                 "wpackagist-plugin/hummingbird-performance": "2.0.1",
                 "wpackagist-plugin/jetpack": "9.3.2",
                 "wpackagist-plugin/pdf-embedder": "4.6.*",
@@ -1572,7 +1573,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2026-02-24T11:59:04+00:00"
+            "time": "2026-03-25T12:09:53+00:00"
         },
         {
             "name": "wpackagist-plugin/adminimize",
@@ -3243,5 +3244,5 @@
         "php": ">=8.1"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
