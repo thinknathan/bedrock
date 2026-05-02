@@ -1448,16 +1448,16 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.21.0.1",
+            "version": "v3.21.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "4cf40fe1b4fe7482d17cd7f513b315c1909c989a"
+                "reference": "69b2bf958b525a3c8c4425b98c95c25a6c6ea9b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/4cf40fe1b4fe7482d17cd7f513b315c1909c989a",
-                "reference": "4cf40fe1b4fe7482d17cd7f513b315c1909c989a",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/69b2bf958b525a3c8c4425b98c95c25a6c6ea9b6",
+                "reference": "69b2bf958b525a3c8c4425b98c95c25a6c6ea9b6",
                 "shasum": ""
             },
             "require": {
@@ -1574,7 +1574,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2026-03-25T12:09:53+00:00"
+            "time": "2026-04-30T06:56:26+00:00"
         },
         {
             "name": "wpackagist-plugin/adminimize",
