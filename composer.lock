@@ -1596,15 +1596,15 @@
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
-            "version": "1.4.10",
+            "version": "1.4.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/better-search-replace/",
-                "reference": "tags/1.4.10"
+                "reference": "tags/1.4.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.11.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
