@@ -1377,16 +1377,16 @@
         },
         {
             "name": "wordpress/php-mcp-schema",
-            "version": "v0.1.2",
+            "version": "v0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/php-mcp-schema",
-                "reference": "95df8a50a3bd54f6b7c4869c6e2185db380d4d63"
+                "reference": "b2fcf97aa023ce46e9f03493c194a72d5a46bea2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/php-mcp-schema/zipball/95df8a50a3bd54f6b7c4869c6e2185db380d4d63",
-                "reference": "95df8a50a3bd54f6b7c4869c6e2185db380d4d63",
+                "url": "https://api.github.com/repos/WordPress/php-mcp-schema/zipball/b2fcf97aa023ce46e9f03493c194a72d5a46bea2",
+                "reference": "b2fcf97aa023ce46e9f03493c194a72d5a46bea2",
                 "shasum": ""
             },
             "require": {
@@ -1420,7 +1420,7 @@
                 "php",
                 "schema"
             ],
-            "time": "2026-06-05T08:26:32+00:00"
+            "time": "2026-08-10T09:12:14+00:00"
         },
         {
             "name": "wp-media/apply-filters-typed",
@@ -1468,16 +1468,16 @@
         },
         {
             "name": "wp-media/mcp-oauth",
-            "version": "v1.0.3",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/mcp-oauth.git",
-                "reference": "c19fc9ec1e084f678f0eb2cf049f3f752712ceac"
+                "reference": "0b07f7616a5776ef59aa333cbb949eaa3749421d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/mcp-oauth/zipball/c19fc9ec1e084f678f0eb2cf049f3f752712ceac",
-                "reference": "c19fc9ec1e084f678f0eb2cf049f3f752712ceac",
+                "url": "https://api.github.com/repos/wp-media/mcp-oauth/zipball/0b07f7616a5776ef59aa333cbb949eaa3749421d",
+                "reference": "0b07f7616a5776ef59aa333cbb949eaa3749421d",
                 "shasum": ""
             },
             "require": {
@@ -1490,11 +1490,11 @@
                 "php": ">=7.4",
                 "php-stubs/wordpress-tests-stubs": "^6.8",
                 "phpcompatibility/phpcompatibility-wp": "^2.0",
-                "phpstan/extension-installer": "^1.3",
-                "phpstan/phpstan-mockery": "^1.1",
-                "phpstan/phpstan-phpunit": "^1.4",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan-mockery": "^2.0",
+                "phpstan/phpstan-phpunit": "^2.0",
                 "roave/security-advisories": "dev-master",
-                "szepeviktor/phpstan-wordpress": "^1.3",
+                "szepeviktor/phpstan-wordpress": "^2.0",
                 "wp-coding-standards/wpcs": "^3",
                 "wp-media/phpunit": "^3"
             },
@@ -1523,9 +1523,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-media/mcp-oauth/issues",
-                "source": "https://github.com/wp-media/mcp-oauth/tree/v1.0.3"
+                "source": "https://github.com/wp-media/mcp-oauth/tree/v1.1.1"
             },
-            "time": "2026-07-21T19:13:38+00:00"
+            "time": "2026-08-24T17:43:13+00:00"
         },
         {
             "name": "wp-media/plugin-family",
